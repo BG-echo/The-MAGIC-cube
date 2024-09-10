@@ -12,7 +12,7 @@ You can choose to edit this file, but then you have to link it with SDL2, for th
 2. Then download SDL from there website and put the SDL2.dll and the libSDL2main.a files in a folder named lib which must be inside another folder named bin.
 3. And also put the SDL2 folder from the SDL zip in a folder named include which must be inside the bin folder.
 4. Now, put the folder you made to put the main.cpp and the Matrix.cpp files in the same folder where there is the bin folder.
-5. run the command 'g++ -o <executable filename> <folder containing the main.cpp file>/main.cpp -Lbin/lib -lSDL2 -lmingw32 -lSDL2main' and press enter.
+5. run the command 'g++ -o <executable_filename> <folder_containing_the_main.cpp_file>/main.cpp -Lbin/lib -lSDL2 -lmingw32 -lSDL2main' and press enter.
 6. YOU MUST HAVE DOWNLOADED MINGW or MSYS2 FROM BEFORE.
 
 # NOTE : THIS CURRENTLY WORKS ONLY ON WINDOWS
